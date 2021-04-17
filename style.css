@@ -1,0 +1,94 @@
+:root{
+    --primary: #a36e32 ;
+    --width-break: 600px;
+}
+*{
+   box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: 'Architects Daughter';
+    background-image: url("https://images4.fanpop.com/image/photos/24400000/Daenerys-Targaryen-and-Khal-Drogo-daenerys-targaryen-24490303-500-281.jpg");
+    background-position: center;
+    background-size:var(--width-break) ;
+    backdrop-filter: blur(2px);
+    overflow:-mhidden-;
+}
+nav{
+    text-align: center;
+    background-color: var(--primary);
+    
+}
+nav div{
+    padding: 0.8rem;
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #fff;
+}
+main{
+    margin:auto;
+    padding: 2.3rem 2rem;
+    max-width: var(--width-break);
+    background-color: rgb(255, 250, 236);
+    opacity: 0.89;
+}
+textarea{
+    display: block;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    min-height: 20vh;
+    font-size: larger;
+    font-family: inherit;
+    padding: 0.5rem;
+}
+button{
+
+    margin: 1rem auto;
+    background-color: var(--primary);
+    color: #fff;
+    padding: 0.7rem 1rem;
+    font-size: 1.5rem;
+    font-family: inherit;
+    font-weight: 200;
+    
+}
+button:hover{
+    border: 0px 3px 3px rgb(77, 38, 19);
+    border-radius: 30rem;
+}
+#output{
+    display: block;
+    width: 100%;
+    background-color: white;
+    min-height: 10vh;
+    max-height: 20vh;
+    overflow: scroll;
+    font-size: larger;
+    border: 1px solid black;
+    padding: 0.5rem;
+}
+
+footer{
+    display: block;
+    background-color: var(--primary);
+    width: 100%;
+    margin-bottom: 2rem;
+    padding: 2rem 1rem;
+    position: fixed;
+    top:100%;
+    text-align:center;
+    
+}
+footer p{
+    max-width: var(--width-break);
+    margin: auto;
+    color: #fff;
+    font-size:larger;
+    text-align: center;
+}
+footer small{
+    position: absolute;
+    bottom: 0.5rem;
+    right:1rem;
+    color: #fff;
+}
